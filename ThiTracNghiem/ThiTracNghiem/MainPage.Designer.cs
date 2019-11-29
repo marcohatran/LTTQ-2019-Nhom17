@@ -65,14 +65,14 @@
             // tạoMớiToolStripMenuItem
             // 
             this.tạoMớiToolStripMenuItem.Name = "tạoMớiToolStripMenuItem";
-            this.tạoMớiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.tạoMớiToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.tạoMớiToolStripMenuItem.Text = "Tạo mới";
             this.tạoMớiToolStripMenuItem.Click += new System.EventHandler(this.tạoMớiToolStripMenuItem_Click_1);
             // 
             // chỉnhSửaToolStripMenuItem
             // 
             this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
-            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
             this.chỉnhSửaToolStripMenuItem.Click += new System.EventHandler(this.chỉnhSửaToolStripMenuItem_Click);
             // 
@@ -88,13 +88,14 @@
             // tạoMãMônThiToolStripMenuItem
             // 
             this.tạoMãMônThiToolStripMenuItem.Name = "tạoMãMônThiToolStripMenuItem";
-            this.tạoMãMônThiToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-            this.tạoMãMônThiToolStripMenuItem.Text = "Tạo mã môn thi";
+            this.tạoMãMônThiToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.tạoMãMônThiToolStripMenuItem.Text = "Tạo mã môn học";
+            this.tạoMãMônThiToolStripMenuItem.Click += new System.EventHandler(this.tạoMãMônThiToolStripMenuItem_Click);
             // 
             // tạoMãĐềThiToolStripMenuItem
             // 
             this.tạoMãĐềThiToolStripMenuItem.Name = "tạoMãĐềThiToolStripMenuItem";
-            this.tạoMãĐềThiToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.tạoMãĐềThiToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.tạoMãĐềThiToolStripMenuItem.Text = "Tạo mã đề thi";
             // 
             // câuHỏiToolStripMenuItem

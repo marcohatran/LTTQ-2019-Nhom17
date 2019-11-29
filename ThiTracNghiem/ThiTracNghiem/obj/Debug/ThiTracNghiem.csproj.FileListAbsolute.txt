@@ -10,3 +10,4 @@ D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.p
 D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.MainPage.resources
 D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.NewAccount.resources
 D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.EditAccount.resources
+D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.AddMaMH.resources

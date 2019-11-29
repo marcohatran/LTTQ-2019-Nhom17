@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddMaMH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMaMH.Designer.cs">
+      <DependentUpon>AddMaMH.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddMaMH.resx">
+      <DependentUpon>AddMaMH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditAccount.resx">
       <DependentUpon>EditAccount.cs</DependentUpon>
     </EmbeddedResource>

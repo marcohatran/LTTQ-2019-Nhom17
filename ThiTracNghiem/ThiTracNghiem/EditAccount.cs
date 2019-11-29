@@ -29,7 +29,7 @@ namespace ThiTracNghiem
         }
 
         private void EditAccount_Load(object sender, EventArgs e)
-        {
+        {          
             //Ket noi toi CSDL
             mySqlConnection = new SqlConnection(conStr);
             mySqlConnection.Open();

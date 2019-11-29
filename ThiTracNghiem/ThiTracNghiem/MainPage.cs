@@ -17,8 +17,6 @@ namespace ThiTracNghiem
             InitializeComponent();
         }
 
-
-
         private void tạoMớiToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             NewAccount newacc = new NewAccount();
@@ -31,6 +29,13 @@ namespace ThiTracNghiem
             EditAccount editacc = new EditAccount();
             editacc.MdiParent = this;
             editacc.Show();
+        }
+
+        private void tạoMãMônThiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddMaMH addmamh = new AddMaMH();
+            addmamh.MdiParent = this;
+            addmamh.Show();
         }
     }
 }
