@@ -65,14 +65,14 @@
             // tạoMớiToolStripMenuItem
             // 
             this.tạoMớiToolStripMenuItem.Name = "tạoMớiToolStripMenuItem";
-            this.tạoMớiToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.tạoMớiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.tạoMớiToolStripMenuItem.Text = "Tạo mới";
             this.tạoMớiToolStripMenuItem.Click += new System.EventHandler(this.tạoMớiToolStripMenuItem_Click_1);
             // 
             // chỉnhSửaToolStripMenuItem
             // 
             this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
-            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
             this.chỉnhSửaToolStripMenuItem.Click += new System.EventHandler(this.chỉnhSửaToolStripMenuItem_Click);
             // 
@@ -112,6 +112,7 @@
             this.tạoCâuHỏiToolStripMenuItem.Name = "tạoCâuHỏiToolStripMenuItem";
             this.tạoCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.tạoCâuHỏiToolStripMenuItem.Text = "Tạo câu hỏi";
+            this.tạoCâuHỏiToolStripMenuItem.Click += new System.EventHandler(this.tạoCâuHỏiToolStripMenuItem_Click);
             // 
             // chỉnhSửaCâuHỏiToolStripMenuItem
             // 

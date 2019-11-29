@@ -34,6 +34,7 @@ namespace ThiTracNghiem
             SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from Login where Username='" + textBox1.Text + " ' and Password = '" + textBox2.Text +" ' ",con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
+            //kiểm tra kết nối
             if (dt.Rows[0][0].ToString() == "1")
             {
             

@@ -53,6 +53,12 @@
     <Compile Include="AddMaMH.Designer.cs">
       <DependentUpon>AddMaMH.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cauhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cauhoi.Designer.cs">
+      <DependentUpon>Cauhoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddMaMH.resx">
       <DependentUpon>AddMaMH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cauhoi.resx">
+      <DependentUpon>Cauhoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditAccount.resx">
       <DependentUpon>EditAccount.cs</DependentUpon>

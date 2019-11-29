@@ -37,5 +37,12 @@ namespace ThiTracNghiem
             addmamh.MdiParent = this;
             addmamh.Show();
         }
+
+        private void tạoCâuHỏiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cauhoi ch = new Cauhoi();
+            ch.MdiParent = this;
+            ch.Show();
+        }
     }
 }
