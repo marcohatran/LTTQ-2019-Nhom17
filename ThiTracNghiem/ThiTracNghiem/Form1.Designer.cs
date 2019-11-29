@@ -60,11 +60,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 16);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(10, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(115, 24);
             this.label3.TabIndex = 0;
-            this.label3.Text = "LOGO";
+            this.label3.Text = "WElCOME!";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1

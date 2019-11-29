@@ -16,5 +16,21 @@ namespace ThiTracNghiem
         {
             InitializeComponent();
         }
+
+
+
+        private void tạoMớiToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            NewAccount newacc = new NewAccount();
+            newacc.MdiParent = this;
+            newacc.Show();
+        }
+
+        private void chỉnhSửaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditAccount editacc = new EditAccount();
+            editacc.MdiParent = this;
+            editacc.Show();
+        }
     }
 }
