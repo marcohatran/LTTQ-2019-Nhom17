@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[Monhoc]
-(
-	[MaMH] NVARCHAR(10) NOT NULL PRIMARY KEY, 
-    [TenMH] NVARCHAR(20) NULL
-)
