@@ -1,2 +1,12 @@
 C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\TracNghiem\bin\Debug\TracNghiem.exe.config
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\bin\Debug\TracNghiem.exe.config
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\bin\Debug\TracNghiem.exe
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\bin\Debug\TracNghiem.pdb
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.csprojResolveAssemblyReference.cache
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.Form1.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.Properties.Resources.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.csproj.GenerateResource.Cache
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.exe.licenses
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.exe
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.pdb
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.MainPage.resources
