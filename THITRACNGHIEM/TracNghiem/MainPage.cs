@@ -7,7 +7,7 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraBars;
+using DevExpress.XtraEditors;
 
 namespace TracNghiem
 {
@@ -16,6 +16,25 @@ namespace TracNghiem
         public MainPage()
         {
             InitializeComponent();
+        }
+        public void skins()
+        {
+            DevExpress.LookAndFeel.DefaultLookAndFeel sk = new DevExpress.LookAndFeel.DefaultLookAndFeel();
+            sk.LookAndFeel.SkinName = "Springtime";
+        }
+        private void MainPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult rs;
+            rs = XtraMessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (rs == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+            skins();
         }
     }
 }
