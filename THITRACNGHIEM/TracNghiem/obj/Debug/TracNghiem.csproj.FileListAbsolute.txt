@@ -1,0 +1,2 @@
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\TracNghiem\bin\Debug\TracNghiem.exe.config
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\bin\Debug\TracNghiem.exe.config
