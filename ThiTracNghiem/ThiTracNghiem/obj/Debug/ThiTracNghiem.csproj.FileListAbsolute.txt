@@ -1,13 +1,20 @@
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojResolveAssemblyReference.cache
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Form1.resources
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.Cache
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.MainPage.resources
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.NewAccount.resources
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.EditAccount.resources
-D:\GitHub\LTTQ-2019-Nhom17\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.AddMaMH.resources
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.exe.config
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.exe
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.pdb
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.Form1.resources
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.exe.licenses
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.exe
+C:\Users\PC\Documents\Visual Studio 2013\Projects\DXApplication1\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.pdb
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.exe.config
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.exe
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.pdb
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.exe
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\bin\Debug\THITRACNGHIEM.pdb
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.csprojResolveAssemblyReference.cache
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.MainPage.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.Properties.Resources.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.csproj.GenerateResource.Cache
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\THITRACNGHIEM\obj\Debug\THITRACNGHIEM.exe.licenses

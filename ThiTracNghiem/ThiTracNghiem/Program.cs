@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevExpress.UserSkins;
+using DevExpress.Skins;
 
-namespace ThiTracNghiem
+namespace THITRACNGHIEM
 {
     static class Program
     {
@@ -16,7 +17,7 @@ namespace ThiTracNghiem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainPage());
         }
     }
 }

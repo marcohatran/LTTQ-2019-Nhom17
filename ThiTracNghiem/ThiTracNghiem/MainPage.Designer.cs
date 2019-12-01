@@ -1,4 +1,4 @@
-﻿namespace ThiTracNghiem
+﻿namespace THITRACNGHIEM
 {
     partial class MainPage
     {
@@ -28,109 +28,164 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.tàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tạoMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chỉnhSửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đềThiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tạoMãMônThiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tạoMãĐềThiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.câuHỏiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tạoCâuHỏiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chỉnhSửaCâuHỏiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
+            this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.skinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // ribbonControl1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tàiKhoảnToolStripMenuItem,
-            this.đềThiToolStripMenuItem,
-            this.câuHỏiToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(740, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.ribbonControl1.ExpandCollapseItem.Id = 0;
+            this.ribbonControl1.Images = this.imageList1;
+            this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.ribbonControl1.ExpandCollapseItem,
+            this.ribbonControl1.SearchEditItem,
+            this.barButtonItem1,
+            this.barButtonItem2,
+            this.barButtonItem3,
+            this.skinRibbonGalleryBarItem1});
+            this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControl1.MaxItemId = 6;
+            this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.ribbonPage1,
+            this.ribbonPage2,
+            this.ribbonPage3});
+            this.ribbonControl1.Size = new System.Drawing.Size(829, 158);
+            this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
-            // tàiKhoảnToolStripMenuItem
+            // imageList1
             // 
-            this.tàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tạoMớiToolStripMenuItem,
-            this.chỉnhSửaToolStripMenuItem});
-            this.tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
-            this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
-            this.tàiKhoảnToolStripMenuItem.Text = "Tài khoản";
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "key.png");
+            this.imageList1.Images.SetKeyName(1, "logout.png");
+            this.imageList1.Images.SetKeyName(2, "test.jpg");
             // 
-            // tạoMớiToolStripMenuItem
+            // barButtonItem1
             // 
-            this.tạoMớiToolStripMenuItem.Name = "tạoMớiToolStripMenuItem";
-            this.tạoMớiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.tạoMớiToolStripMenuItem.Text = "Tạo mới";
-            this.tạoMớiToolStripMenuItem.Click += new System.EventHandler(this.tạoMớiToolStripMenuItem_Click_1);
+            this.barButtonItem1.Caption = "Đăng xuất";
+            this.barButtonItem1.Id = 2;
+            this.barButtonItem1.ImageOptions.Image = global::THITRACNGHIEM.Properties.Resources.logout;
+            this.barButtonItem1.Name = "barButtonItem1";
             // 
-            // chỉnhSửaToolStripMenuItem
+            // barButtonItem2
             // 
-            this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
-            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
-            this.chỉnhSửaToolStripMenuItem.Click += new System.EventHandler(this.chỉnhSửaToolStripMenuItem_Click);
+            this.barButtonItem2.Caption = "Đổi mật khẩu";
+            this.barButtonItem2.Id = 3;
+            this.barButtonItem2.ImageOptions.Image = global::THITRACNGHIEM.Properties.Resources.key;
+            this.barButtonItem2.Name = "barButtonItem2";
             // 
-            // đềThiToolStripMenuItem
+            // barButtonItem3
             // 
-            this.đềThiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tạoMãMônThiToolStripMenuItem,
-            this.tạoMãĐềThiToolStripMenuItem});
-            this.đềThiToolStripMenuItem.Name = "đềThiToolStripMenuItem";
-            this.đềThiToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.đềThiToolStripMenuItem.Text = "Đề thi";
+            this.barButtonItem3.Caption = "Làm bài thi";
+            this.barButtonItem3.Id = 4;
+            this.barButtonItem3.ImageOptions.Image = global::THITRACNGHIEM.Properties.Resources.test;
+            this.barButtonItem3.Name = "barButtonItem3";
             // 
-            // tạoMãMônThiToolStripMenuItem
+            // skinRibbonGalleryBarItem1
             // 
-            this.tạoMãMônThiToolStripMenuItem.Name = "tạoMãMônThiToolStripMenuItem";
-            this.tạoMãMônThiToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.tạoMãMônThiToolStripMenuItem.Text = "Tạo mã môn học";
-            this.tạoMãMônThiToolStripMenuItem.Click += new System.EventHandler(this.tạoMãMônThiToolStripMenuItem_Click);
+            this.skinRibbonGalleryBarItem1.Caption = "skinRibbonGalleryBarItem1";
+            this.skinRibbonGalleryBarItem1.Id = 5;
+            this.skinRibbonGalleryBarItem1.Name = "skinRibbonGalleryBarItem1";
             // 
-            // tạoMãĐềThiToolStripMenuItem
+            // ribbonPage1
             // 
-            this.tạoMãĐềThiToolStripMenuItem.Name = "tạoMãĐềThiToolStripMenuItem";
-            this.tạoMãĐềThiToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.tạoMãĐềThiToolStripMenuItem.Text = "Tạo mã đề thi";
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup1,
+            this.ribbonPageGroup2,
+            this.ribbonPageGroup3});
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "Hệ thống";
             // 
-            // câuHỏiToolStripMenuItem
+            // ribbonPageGroup1
             // 
-            this.câuHỏiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tạoCâuHỏiToolStripMenuItem,
-            this.chỉnhSửaCâuHỏiToolStripMenuItem});
-            this.câuHỏiToolStripMenuItem.Name = "câuHỏiToolStripMenuItem";
-            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.câuHỏiToolStripMenuItem.Text = "Câu hỏi";
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.Text = "User";
             // 
-            // tạoCâuHỏiToolStripMenuItem
+            // ribbonPageGroup2
             // 
-            this.tạoCâuHỏiToolStripMenuItem.Name = "tạoCâuHỏiToolStripMenuItem";
-            this.tạoCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.tạoCâuHỏiToolStripMenuItem.Text = "Tạo câu hỏi";
-            this.tạoCâuHỏiToolStripMenuItem.Click += new System.EventHandler(this.tạoCâuHỏiToolStripMenuItem_Click);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "Test";
             // 
-            // chỉnhSửaCâuHỏiToolStripMenuItem
+            // ribbonPageGroup3
             // 
-            this.chỉnhSửaCâuHỏiToolStripMenuItem.Name = "chỉnhSửaCâuHỏiToolStripMenuItem";
-            this.chỉnhSửaCâuHỏiToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.chỉnhSửaCâuHỏiToolStripMenuItem.Text = "Chỉnh sửa câu hỏi";
+            this.ribbonPageGroup3.ItemLinks.Add(this.skinRibbonGalleryBarItem1);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
+            this.ribbonPageGroup3.Text = "Desktop";
+            // 
+            // ribbonPage2
+            // 
+            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup4});
+            this.ribbonPage2.Name = "ribbonPage2";
+            this.ribbonPage2.Text = "Quản lý";
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "ribbonPageGroup4";
+            // 
+            // ribbonPage3
+            // 
+            this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup5});
+            this.ribbonPage3.Name = "ribbonPage3";
+            this.ribbonPage3.Text = "Trợ giúp";
+            // 
+            // ribbonPageGroup5
+            // 
+            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
+            this.ribbonPageGroup5.Text = "ribbonPageGroup5";
+            // 
+            // ribbonStatusBar1
+            // 
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(1, 343);
+            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
+            this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(827, 27);
+            // 
+            // xtraTabControl1
+            // 
+            this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 158);
+            this.xtraTabControl1.Name = "xtraTabControl1";
+            this.xtraTabControl1.Size = new System.Drawing.Size(829, 371);
+            this.xtraTabControl1.TabIndex = 1;
             // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 369);
-            this.Controls.Add(this.menuStrip1);
-            this.IsMdiContainer = true;
+            this.ClientSize = new System.Drawing.Size(829, 529);
+            this.Controls.Add(this.xtraTabControl1);
+            this.Controls.Add(this.ribbonControl1);
             this.Name = "MainPage";
+            this.Ribbon = this.ribbonControl1;
+            this.StatusBar = this.ribbonStatusBar1;
             this.Text = "MainPage";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,18 +193,22 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem tàiKhoảnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tạoMớiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem chỉnhSửaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đềThiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tạoMãMônThiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tạoMãĐềThiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem câuHỏiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tạoCâuHỏiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem chỉnhSửaCâuHỏiToolStripMenuItem;
-
-
-
+        private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
+        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
+        private DevExpress.XtraBars.SkinRibbonGalleryBarItem skinRibbonGalleryBarItem1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
+
