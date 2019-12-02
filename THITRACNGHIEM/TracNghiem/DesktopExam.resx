@@ -117,20 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DangNhap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DangNhap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\test.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DesktopExam.IconOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAADXRFWHRUaXRsZQBSZWNvcmQ7
+        YfBaGgAABEJJREFUWEfFlH9M1HUcxr8MfzGxQZtjSmsVGUKJBROZrZssFHSXXtkPzDUFotaSZSky4tBh
+        gkfiH1C07BS4hoioLVQWSi7cskQdmOlxbTg99AuccRjZL+uPp8/z5aA7etfin+uzvbb3nvf7eZ47BmgA
+        /ldEMZiIYjARxWAiisFEFIOJKCYlJYm0bLFO/bq8LLPj3R2NHTtt187utN1R3Fazi5ravcAbyUukLlEU
+        zCGny0pXnSkv63HV7oHefAhDbS24/UUrhhXeE0cNzVVrB2/U7bP0jMsQu0TR3/Txmxsmfbl9W8Vl+4fo
+        /7QJw0cPYqixBt66anj3VMK7twpexwe41Vhr7Pqbm3DZvhv00OufJXWJop8p5FTJ1orv9n4E7yf7MVhT
+        DU+VDZ6KEgzYrOgvLTQYsBUbGne84S099DJjNE/qEsW4uDij/GRRUebF9yvxfUMNPO+Vo39HEfreKUDf
+        ts0yascb3tJDLzOYxUypSxTDw8O1yuycsPbCt3W3vRoDu7ZDLymAvjX/v6Fu6aFXZfQxi5lSlyxqWsih
+        rJysrnIb+neVQt+SjxvWt8a4UvAGTr+ai9a1aw04U/O/oYdeZqisbGaKXaKoaaH7zCubncWFuF6cj97C
+        DWP05Ofh+Lp1OFN/EE6n24AzNe78b+l1Wguhso4wU+wSRU2b0pBhvt6dswY9OatxbXMe3D74bc/tPwy3
+        fgu650cDztS4G72jp+flF8EMZjFT7BJFTZtWn7bsjmu1Bd2WpXA9Z8aV17JwdePr+Dw7C263B56hnzH4
+        w68GnHt7b6JN7XjDW9fzT414VYbK+p2ZYpcoqmOHKe2nSyvT4TQ/OUb3M8vQ8vQK6PqgKv4N3uEROOt9
+        XhyzrDBu/D1OSzocpiX8AGFilyiqD2BPNl09vzQVlzIWB9C2PB2ddfUY8P4SADXuxt93pqfCvtCkT/gD
+        VD2a8ln7YhMuLnkigAurzGhONaHLsQ/6jUEDztS4G3/PDJXVykyxSxTVL0zJQwnrDycvwoXUQL5JU8Ev
+        ZeKkOQNHVCnhTI278ffMUFl5zBS7RFH9ycROnxFVFZvoaU9JRqdpYQBdKvhby3J0Z60x4Ext/B29KuNm
+        /PS7ZjFT7BJF9U9DEbbpnjnrGx5+DB2LFuD84xODHnqZwSxmil2iOPImKSKts+fUHYhLwNmURJybAPTQ
+        ywxfltwliiOPP4UpEaGTZ1ujYg44YuJxPGEeOhbM/1dOqBveKk8TvczwZcldovjXo3GqIio3Inpj2cwY
+        3XHfXByLj0f7/EfwVeI8A87UuOPNKxHRm+jxeY1yPrFLFAOf8ZNQRM4MnRybO2OWtSji3lOlkfcPlN/9
+        wB+EMzXueMNbn2esnE/sEsW/PwaFKvjLxPBoxYOKuT44U+OON7wNKOcTu0Txn9/oB+G3m6ZgGeFMTSwe
+        fWKXJAYTUQwmohhMRDF4QPsTQnbBBw/7LBgAAAAASUVORK5CYII=
+</value>
   </data>
 </root>

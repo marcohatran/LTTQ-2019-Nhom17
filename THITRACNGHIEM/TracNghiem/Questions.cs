@@ -58,7 +58,7 @@ namespace TracNghiem
         {
             textBox1.Enabled = edit;
             textBox2.Enabled = edit;
-            textBox3.Enabled = !edit;// để mò thêm xíu nữa, tí hỏi nha .chua tim kiem dc á, ukm, mới chỉ nhập .đbưỏợc ô tim kiếm thôi
+            textBox3.Enabled = !edit;
             textBox4.Enabled = edit;
             textBox5.Enabled = edit;
             textBox6.Enabled = edit;
@@ -93,8 +93,7 @@ namespace TracNghiem
             //Hien thi len luoi
             DataTable dtUsers = new DataTable();
             dtUsers.Load(drUsers);
-            dataGridView1.DataSource = dtUsers;
-            SetControls(false);*/
+            dataGridView1.DataSource = dtUsers;;*/
             Find();
         }
 
@@ -144,7 +143,7 @@ namespace TracNghiem
                 int row = dataGridView1.CurrentRow.Index;
                 string MaCH = dataGridView1.Rows[row].Cells[0].Value.ToString();
                 
-                string sSql = "UPDATE CAUHOI SET Cauhoi = @Cauhoi,A=@A,B=@B,C=@C,D=@D,Dapan=@Dapan WHERE MaCH = @MaCH"; // Ngáo à,. Update tài khoản làm gì, cau phía dưới á.
+                string sSql = "UPDATE CAUHOI SET Cauhoi = @Cauhoi,A=@A,B=@B,C=@C,D=@D,Dapan=@Dapan WHERE MaCH = @MaCH";
                // string sSql = "UPDATE CAUHOI SET Cauhoi = N'" + textBox2.Text + "',A = N'" + textBox4.Text + "',B = N'" + textBox5.Text + "',C= N'" + textBox6.Text + "',D = N'" + textBox7.Text + "',Dapan = N'" + comboBox1.Text + "' WHERE MaCH = " + Ma;
                 mySqlCommand = new SqlCommand(sSql, mySqlConnection);
                 //Dinh nghia cac tham so

@@ -8,15 +8,70 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using System.Data.SqlClient;
 
 namespace TracNghiem
 {
     public partial class MainPage : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public MainPage()
+        Form1 frmLogin;
+        String IdName;
+
+        public MainPage(Form1 Form, String Usename)
         {
             InitializeComponent();
+            frmLogin = Form;
+            IdName = Usename;
+            Role_USer();
+            //Kiểm tra quyền thôi :V
+            //  MessageBox.Show(x);
         }
+
+        String x;
+        public bool Check_Role()
+        {
+            // Mở kết Nối 
+            SqlConnection con = new SqlConnection(StringConnectionSql.StrConnect);
+            con.Open();
+
+            SqlCommand comand = new SqlCommand("Select Role from TAIKHOAN WHERE Username ='" + IdName + "'", con);
+            SqlDataReader r = comand.ExecuteReader();
+            r.Read();
+            x = r.GetValue(0).ToString();
+            if (r.GetValue(0).ToString()=="True")
+                return true;
+            else
+                return false;
+     
+            r.Close();
+            con.Close();
+        }
+        //Phân Quyền :v
+        public void Role_USer()
+        {
+            if (Check_Role() == true)
+            {
+                barButtonItem1.Enabled = true;
+                barButtonItem2.Enabled = true;
+                barButtonItem3.Enabled = true;
+                barButtonItem7.Enabled = true;
+                barButtonItem8.Enabled = true;
+            }
+            else
+            {
+                barButtonItem1.Enabled = true;
+                barButtonItem2.Enabled = true;
+                barButtonItem3.Enabled = true;
+                barButtonItem7.Enabled = false;
+                barButtonItem8.Enabled = false;
+                
+            }
+	  
+        }
+       /* public MainPage()
+        {
+            InitializeComponent();
+        }*/
         public void skins()
         {
             DevExpress.LookAndFeel.DefaultLookAndFeel sk = new DevExpress.LookAndFeel.DefaultLookAndFeel();
