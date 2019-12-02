@@ -13,13 +13,15 @@ namespace TracNghiem
 {
     public partial class DesktopExam : DevExpress.XtraEditors.XtraForm
     {
-      
-        public DesktopExam()
+        String idname;
+        public DesktopExam(String name)
         {
             InitializeComponent();
+            idname = name;
         }
         private void DesktopExam_Load(object sender, EventArgs e)
-        {           
+        {
+            label5.Text = idname;
             label6.Text = "30 Phút";
             label7.Text = DateTime.Now.Day + "/" + DateTime.Now.Month + "/" + DateTime.Now.Year;
         }

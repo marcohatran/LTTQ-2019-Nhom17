@@ -97,5 +97,16 @@ namespace TracNghiem
             Questions qs = new Questions();
             qs.Show();
         }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DesktopExam dke = new DesktopExam(IdName);
+            dke.Show();
+        }
+
+        private void ribbon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

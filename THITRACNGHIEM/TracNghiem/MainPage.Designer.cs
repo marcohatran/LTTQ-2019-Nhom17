@@ -84,6 +84,7 @@
             this.ribbonPage3});
             this.ribbon.Size = new System.Drawing.Size(803, 158);
             this.ribbon.StatusBar = this.ribbonStatusBar;
+            this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
             // imageList1
             // 
@@ -114,6 +115,7 @@
             this.barButtonItem3.Id = 3;
             this.barButtonItem3.ImageOptions.Image = global::TracNghiem.Properties.Resources.test;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // skinRibbonGalleryBarItem1
             // 
