@@ -10,3 +10,4 @@ D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.exe.lic
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.exe
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.pdb
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.MainPage.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.Questions.resources

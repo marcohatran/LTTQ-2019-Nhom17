@@ -36,5 +36,11 @@ namespace TracNghiem
         {
             skins();
         }
+
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Questions qs = new Questions();
+            qs.Show();
+        }
     }
 }
