@@ -8,6 +8,6 @@ namespace TracNghiem
 {
     class StringConnectionSql
     {
-        public static string StrConnect = @"Data Source=MAYTINH\SQLEXPRESS;Initial Catalog=THITRACNGHIEM;User ID=sa;Password=loc";
+        public static string StrConnect = @"Data Source=MAYTINH\SQLEXPRESS;Initial Catalog=TRACNGHIEM;User ID=sa;Password=loc";
     }
 }
