@@ -108,5 +108,12 @@ namespace TracNghiem
         {
 
         }
+
+        private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            User us = new User();
+            us.Show();
+
+        }
     }
 }

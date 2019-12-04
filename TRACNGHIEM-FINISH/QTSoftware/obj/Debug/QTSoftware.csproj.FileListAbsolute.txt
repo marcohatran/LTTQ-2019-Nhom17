@@ -1,0 +1,42 @@
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\bin\Debug\QTSoftware.exe
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\bin\Debug\QTSoftware.pdb
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.csprojResolveAssemblyReference.cache
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Properties.Resources.resources
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.csproj.GenerateResource.Cache
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.exe.licenses
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.exe
+c:\users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.pdb
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Dangky.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Dangnhap.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.FromThi.resources
+C:\Users\duy28\OneDrive\Documents\Visual Studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Mainchinh.resources
+C:\Users\duy28\OneDrive\Documents\Visual Studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.DoiMatKhau.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Quanlycauhoi.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Formketquathi.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.FormThongBaoThi.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Lamsaodethi.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Load.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\bin\Debug\QTSoftware.exe.config
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.LichsuThi.resources
+C:\Users\duy28\onedrive\documents\visual studio 2013\Projects\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Quanlyuser.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\bin\Debug\QTSoftware.exe.config
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\bin\Debug\QTSoftware.exe
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\bin\Debug\QTSoftware.pdb
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.csprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Dangky.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Dangnhap.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.DoiMatKhau.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Formketquathi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.FormThongBaoThi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.FromThi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Lamsaodethi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.LichsuThi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Load.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Mainchinh.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Properties.Resources.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Quanlycauhoi.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.Quanlyuser.resources
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.csproj.GenerateResource.Cache
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.exe.licenses
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.exe
+C:\Users\PC\Downloads\mophong\QTSoftware\QTSoftware\obj\Debug\QTSoftware.pdb

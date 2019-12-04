@@ -13,3 +13,4 @@ D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.MainPag
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.Questions.resources
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.DesktopExam.resources
 D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.Quiz.resources
+D:\GitHub\LTTQ-2019-Nhom17\THITRACNGHIEM\TracNghiem\obj\Debug\TracNghiem.User.resources

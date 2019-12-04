@@ -211,11 +211,7 @@ namespace TracNghiem
             textBox7.Clear();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
+       
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
