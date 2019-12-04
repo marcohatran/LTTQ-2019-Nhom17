@@ -15,14 +15,13 @@ namespace QTSoftware
 {
     public partial class FromThi : DevExpress.XtraEditors.XtraForm
     {
-        // Start Code ######
         private float Diem = 0;
         //Giờ Phút Giây để load lên form
         private int gio, phut, giay;
 
         private String TenThiSinh;
 
-        private int SocauDung=0, SocauSai=0;
+        private int SocauDung=0;
 
         private int Cauhientai=0;
 
@@ -230,13 +229,8 @@ namespace QTSoftware
                 Radio_B.Checked = false;
                 Radio_C.Checked = false;
                 Radio_D.Checked = false;
-               // simpleButton2.Enabled = true;
                 Cauhientai++;
                 Load_CauHoi_VaoControl();
-                if (Cauhientai == 0)
-                {
-                  //  simpleButton2.Enabled = false;
-                }
             }
         }
 
@@ -246,17 +240,12 @@ namespace QTSoftware
             if (Cauhientai > 0)
             {
                 GhiLaiDapAnTS();
-              //  simpleButton1.Enabled = true;
                 Radio_A.Checked = false;
                 Radio_B.Checked = false;
                 Radio_C.Checked = false;
                 Radio_D.Checked = false;
                 Cauhientai--;
                 Load_CauHoi_VaoControl();
-                if (Cauhientai == 0)
-                {
-               //     simpleButton1.Enabled = false;
-                }
             }
         }
         
@@ -278,8 +267,7 @@ namespace QTSoftware
                 Diem = (float)(SocauDung * 5);
                 int SocauSai = SocauNgauNhien - SocauDung;
                 Formketquathi kq = new Formketquathi(SocauDung,SocauSai, Diem,TenThiSinh);
-                kq.Show();
-              //  MessageBox.Show("Đúng " + SocauDung.ToString() + " câu \n\r SAi  " + (SocauNgauNhien - SocauDung).ToString() + "  Bạn được  " + Diem.ToString() + "  điểm ");
+                kq.Show();              
             }
             else
             {
@@ -323,7 +311,6 @@ namespace QTSoftware
                 }
 
                 Diem = (float)(SocauDung * 5);
-          //      MessageBox.Show("Đúng " + SocauDung.ToString() + " câu " + "  Bạn được  " + Diem.ToString() + "  điểm ");
                 int SocauSai = SocauNgauNhien - SocauDung;
                 Formketquathi kq = new Formketquathi(SocauDung, SocauSai, Diem,TenThiSinh);
                 kq.Show();

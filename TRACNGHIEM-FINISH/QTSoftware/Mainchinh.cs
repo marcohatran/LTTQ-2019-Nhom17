@@ -58,9 +58,7 @@ namespace QTSoftware
                 return true;
             else
                 return false;
-     
-            r.Close();
-            con.Close();
+
         }
         //Phân Quyền :v
         public void Role_USer()

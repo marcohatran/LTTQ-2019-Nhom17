@@ -134,14 +134,14 @@
             // 
             // combo_mon
             // 
-            this.combo_mon.EditValue = "Toán";
+            this.combo_mon.EditValue = "Java";
             this.combo_mon.Location = new System.Drawing.Point(226, 214);
             this.combo_mon.Name = "combo_mon";
             this.combo_mon.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.combo_mon.Properties.Items.AddRange(new object[] {
-            "Tiếng anh",
-            "Toán"});
+            "Java",
+            "Tiếng anh"});
             this.combo_mon.Properties.Sorted = true;
             this.combo_mon.Size = new System.Drawing.Size(141, 20);
             this.combo_mon.TabIndex = 11;

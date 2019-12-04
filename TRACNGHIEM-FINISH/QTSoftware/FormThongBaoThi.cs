@@ -30,9 +30,9 @@ namespace QTSoftware
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (combo_mon.SelectedItem.Equals("Toán"))
+            if (combo_mon.SelectedItem.Equals("Java"))
             {
-                FromThi ft = new FromThi(idname, "Toán");
+                FromThi ft = new FromThi(idname, "Java");
                 ft.Show();
                 this.Close();
             }

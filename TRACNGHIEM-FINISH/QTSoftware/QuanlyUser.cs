@@ -77,15 +77,7 @@ namespace QTSoftware
         //tìm kiếm
         private void button5_Click(object sender, EventArgs e)
         {
-            /*//Truy van thi du lieu
-            string sSql = "SELECT * FROM CAUHOI WHERE MaCH LIKE '%" + textBox1.Text + "%'";
-            mySqlCommand = new SqlCommand(sSql, mySqlConnection);
-            SqlDataReader drUsers = mySqlCommand.ExecuteReader();
 
-            //Hien thi len luoi
-            DataTable dtUsers = new DataTable();
-            dtUsers.Load(drUsers);
-            dataGridView1.DataSource = dtUsers;;*/
             Find();
         }
         //thêm
@@ -98,8 +90,7 @@ namespace QTSoftware
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
-            //dateTimePicker1.Clear();
-            //dateTimePicker2.Clear();
+
         }
         //sửa
         private void button2_Click(object sender, EventArgs e)
@@ -136,8 +127,7 @@ namespace QTSoftware
             if (IsNew == true)
             {
                 //Them moi
-                string sSql = "INSERT INTO THISINHX (MATHISINH,NGAYGIANHAP,NGAYSINH,DIACHI,GMAIL) VALUES (@MATHISINH,@NGAYGIANHAP,@NGAYSINH,@DIACHI,@GMAIL)";
-                // string sSql = "INSERT INTO CAUHOI (MaCH,Cauhoi,A,B,C,D,Dapan) VALUES (N'" + textBox1.Text + "',N'" + textBox2.Text + "',,N'" + textBox4.Text + "',,N'" + textBox5.Text + "',,N'" + textBox6.Text + "',,N'" + textBox7.Text + "',,N'" + comboBox1.Text + "')";
+                string sSql = "INSERT INTO THISINHX (MATHISINH,NGAYGIANHAP,NGAYSINH,DIACHI,GMAIL) VALUES (@MATHISINH,@NGAYGIANHAP,@NGAYSINH,@DIACHI,@GMAIL)";             
                 mySqlCommand = new SqlCommand(sSql, mySqlConnection);
                 //Dinh nghia cac tham so
                 mySqlCommand.Parameters.Add("@MATHISINH", SqlDbType.NVarChar, 10);
@@ -162,8 +152,7 @@ namespace QTSoftware
                 int row = dataGridView1.CurrentRow.Index;
                 string MATHISINH = dataGridView1.Rows[row].Cells[0].Value.ToString();
 
-                string sSql = "UPDATE THISINHX SET NGAYGIANHAP=@NGAYGIANHAP,NGAYSINH=@NGAYSINH,DIACHI=@DIACHI,GMAIL=@GMAIL WHERE MATHISINH = @MATHISINH";
-                // string sSql = "UPDATE CAUHOI SET Cauhoi = N'" + textBox2.Text + "',A = N'" + textBox4.Text + "',B = N'" + textBox5.Text + "',C= N'" + textBox6.Text + "',D = N'" + textBox7.Text + "',Dapan = N'" + comboBox1.Text + "' WHERE MaCH = " + Ma;
+                string sSql = "UPDATE THISINHX SET NGAYGIANHAP=@NGAYGIANHAP,NGAYSINH=@NGAYSINH,DIACHI=@DIACHI,GMAIL=@GMAIL WHERE MATHISINH = @MATHISINH";               
                 mySqlCommand = new SqlCommand(sSql, mySqlConnection);
                 //Dinh nghia cac tham so
                 mySqlCommand.Parameters.Add("@MATHISINH", SqlDbType.NVarChar, 10);

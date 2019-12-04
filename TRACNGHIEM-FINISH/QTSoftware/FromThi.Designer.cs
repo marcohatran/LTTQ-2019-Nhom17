@@ -110,9 +110,9 @@
             this.lbl_mon.Appearance.Options.UseFont = true;
             this.lbl_mon.Location = new System.Drawing.Point(127, 62);
             this.lbl_mon.Name = "lbl_mon";
-            this.lbl_mon.Size = new System.Drawing.Size(199, 22);
+            this.lbl_mon.Size = new System.Drawing.Size(151, 22);
             this.lbl_mon.TabIndex = 4;
-            this.lbl_mon.Text = "Trắc Nghiệm Toán lớp 1";
+            this.lbl_mon.Text = "Trắc Nghiệm Java";
             // 
             // lbl_hoten
             // 

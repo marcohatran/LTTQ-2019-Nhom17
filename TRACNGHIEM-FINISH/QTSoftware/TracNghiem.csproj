@@ -99,12 +99,6 @@
     <Compile Include="FromThi.Designer.cs">
       <DependentUpon>FromThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Load.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Load.Designer.cs">
-      <DependentUpon>Load.cs</DependentUpon>
-    </Compile>
     <Compile Include="Mainchinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,9 +137,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FromThi.resx">
       <DependentUpon>FromThi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Load.resx">
-      <DependentUpon>Load.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mainchinh.resx">
       <DependentUpon>Mainchinh.cs</DependentUpon>
